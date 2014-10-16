@@ -1,0 +1,91 @@
+---
+---
+{% include /bootstrap/css/bootstrap.min.css %}
+{% include /css/syntax.css %}
+
+a:active, a:focus {
+   outline: 0;
+}
+hr {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.post-date {
+    font-size: 70%;
+}
+.post-title {
+    font-size: 170%;
+    font-weight: bold;
+    color: #555;
+}
+.breadcrumb {
+    font-size: 70%;
+    background-color: white;
+    margin: 0;
+}
+.personal img {
+    margin: 0 20px 0 0;
+}
+.personal-text {
+    display: inline-block;
+    /*color: #428BCA;*/
+    color: #BBDDFF;
+    font-size: 140%;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.personal {
+    z-index: 1;
+    position: relative;
+}
+.header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.bold {
+    font-weight: bold;
+}
+.header {
+    margin-bottom: 20px;
+    background-color: #428BCA;
+    /*border-bottom: 1px solid #72BBFA;*/
+}
+.header-img {
+    height: 100%;
+    right: 15px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.post-container {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.post-tags {
+    padding: 5px;
+}
+.post-tag {
+    margin-left: 10px;
+    font-variant: small-caps;
+}
+.post-tags-label {
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #DDD;
+    border-right: 1px solid #DDD;
+    padding: 5px 10px 5px 5px;
+}
+.footer {
+    margin-bottom: 20px;
+}
+.links a {
+    display: block;
+    margin-bottom: 5px;
+}
+.icons a {
+    text-decoration: none;
+}
+.posts > .nav > li > a {
+    padding: 3px 5px 3px 5px;
+    font-size: 90%;
+}

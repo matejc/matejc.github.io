@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-gb">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author }}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/blog.css" type="text/css"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/rss.xml">
+</head>
+<body>
+    <div>
+        <div class="container-fluid header">
+
+            <div class="container header-container">
+                <div class="personal">
+                    <a href="/"><img class="img-rounded" src="/img/cb0debd64aff942c8f45ac261cc2cc30.png"/></a>
+                    <span class="personal-text">
+                    I'm a Python, Plone, Linux, NixOS, JavaScript...
+                    basically everything open-source enthusiast.
+                    </span>
+                </div>
+                <img class="header-img" src="/img/2.jpg"/>
+            </div>
+        </div>
+
+        <div class="container">
+            {{ content }}
+        </div>
+
+        <div class="footer">
+            <hr>
+            <div class="container">
+                <div class="links pull-left">
+                    <a href="/">Home</a>
+                    <a href="/tags">Tags</a>
+                </div>
+                <div class="icons pull-right">
+                    <a href="/rss.xml">
+                        <img src="/img/rss.png">
+                    </a>
+                    <a href="{{ site.urls.github }}">
+                        <img src="/img/github.png">
+                    </a>
+                    <a href="{{ site.urls.twitter }}">
+                        <img src="/img/twitter.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<html>

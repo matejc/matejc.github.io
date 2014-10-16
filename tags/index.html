@@ -1,0 +1,31 @@
+---
+layout: blog
+---
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0]|replace:' ','%20' }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% for tag_ in sortedtags %}
+    {% assign tag = tag_ | replace:'%20',' ' %}
+    <div class="panel panel-default">
+        <div id="{{ tag }}" class="panel-heading">
+            <a href="/tags/#{{ tag }}">{{ tag }}</a>
+        </div>
+        <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+            {% for post in site.tags[tag] %}
+            <li>
+                <a href="{{ post.url }}">
+                    <div class="pull-right post-date">{{ post.date | date_to_string }}</div>
+                    <div class="bold">{{ post.title }}</div>
+                    <div>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</div>
+                </a>
+            </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endfor %}

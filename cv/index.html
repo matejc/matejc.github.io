@@ -1,0 +1,15 @@
+---
+layout: cv
+title: Curriculum Vitae
+---
+<div class="book">
+    {% for cvpage in site.cv %}
+    <div class="page">
+        <div class="heading"><span>{{ cvpage.heading }}</span></div>
+        <div class="subpage">
+            {{ cvpage.output }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<button onclick="window.print();">Print</button>
