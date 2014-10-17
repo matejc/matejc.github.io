@@ -7,12 +7,14 @@ https://raw.githubusercontent.com/iwootten/jekyll-syntax/master/monokai.css
 /*.highlight  { background: #272822; color: #f8f8f2; }*/
 .highlight pre {
     background: #272822; color: #f8f8f2;
-    padding: 0;
+    padding: 5px;
     border: 0;
     border-radius: 0;
-    line-height: 1.1;
+    line-height: 1.2;
 }
-.highlight .lineno { background: #373832; color: #a8a8a2; padding: 0 5px 0 5px; }
+.highlight .lineno { background: #373832; color: #888882; padding: 0 5px 1px 5px; }
+.highlight .lineno:first-child { padding-top: 5px; }
+.highlight .lineno:last-child { padding-bottom: 5px; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
