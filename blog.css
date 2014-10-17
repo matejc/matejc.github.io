@@ -24,12 +24,11 @@ hr {
     margin: 0;
 }
 .personal img {
-    margin: 0 20px 0 0;
+    margin-right: 20px;
 }
 .personal-text {
     display: inline-block;
-    /*color: #428BCA;*/
-    color: #BBDDFF;
+    color: #ACE;
     font-size: 140%;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -38,8 +37,8 @@ hr {
     position: relative;
 }
 .header-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
 }
 .bold {
@@ -47,8 +46,7 @@ hr {
 }
 .header {
     margin-bottom: 20px;
-    background-color: #428BCA;
-    /*border-bottom: 1px solid #72BBFA;*/
+    background-color: #07B;
 }
 .header-img {
     height: 100%;
@@ -91,7 +89,7 @@ hr {
 }
 .post-container > p:first-child {
     font-size: 110%;
-    color: #428BCA;
+    color: #07B;
     margin-bottom: 25px;
 }
 .post-img {
