@@ -4,6 +4,7 @@ title: Nix's very own graphical UI
 tags:
 - nixos
 - linux
+comments: true
 ---
 
 I have been working on this project for the last two months and now it is time for some feedback
