@@ -5,6 +5,7 @@ tags:
 - nixos
 - hydra
 - nginx
+comments: true
 ---
 
 Setup Hydra - the build server - on NixOS with Nginx

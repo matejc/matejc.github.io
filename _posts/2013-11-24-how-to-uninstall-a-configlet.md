@@ -3,6 +3,7 @@ layout: post
 title: How to uninstall a configlet?
 tags:
 - plone
+comments: true
 ---
 
 How to uninstall a configlet in my add-on (, that was installed by my add-on)?

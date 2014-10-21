@@ -3,6 +3,7 @@ layout: post
 title: Image re-size
 tags:
 - cli
+comments: true
 ---
 
 Re-size of jpg/jpeg images command.

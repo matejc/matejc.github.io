@@ -4,6 +4,7 @@ title: Git work log
 tags:
 - cli
 - git
+comments: true
 ---
 
 My git work log command.

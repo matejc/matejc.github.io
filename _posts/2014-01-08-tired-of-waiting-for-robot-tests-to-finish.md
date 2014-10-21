@@ -4,6 +4,7 @@ title: Tired of waiting for Robot tests to finish?
 tags:
 - cli
 - linux
+comments: true
 ---
 
 Running Robot (Selenium) tests makes computer unusable for user.

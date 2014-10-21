@@ -3,6 +3,7 @@ layout: post
 title: Black to blue
 tags:
 - cli
+comments: true
 ---
 
 Convert black to blue using ImageMagick.

@@ -4,6 +4,7 @@ title: Restart process on file change
 tags:
 - cli
 - linux
+comments: true
 ---
 
 Someone on irc (on channel #kiberpipa at freenode) was trying to solve a bash problem so I decided to challenge myself ... here it goes ...

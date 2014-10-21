@@ -4,6 +4,7 @@ title: Jump into Hydra
 tags:
 - nixos
 - hydra
+comments: true
 ---
 
 Some basics to use Hydra through web interface.

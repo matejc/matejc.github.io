@@ -5,6 +5,7 @@ tags:
 - nixos
 - cli
 - linux
+comments: true
 ---
 
 Nix has many advantages over most of the other package managers, today, I am going to write about one of them.

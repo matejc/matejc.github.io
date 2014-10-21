@@ -3,6 +3,7 @@ layout: post
 title: Files for OpenVPN
 tags:
 - openvpn
+comments: true
 ---
 
 I used this to generate my OpenVPN certs and keys.
