@@ -27,9 +27,7 @@ pageno: 1
 > Python Programmer
 
 ## Where
-> Kiberpipa (LUGOS)\\
-> Gosposvetska c. 2\\
-> 1000 Ljubljana
+> Kiberpipa (LUGOS)
 
 ---
 
@@ -54,6 +52,19 @@ pageno: 1
 
 ## Where
 > Google Summer Of Code
+
+---
+
+## Dates
+> 1.3.2015 - 1.9.2016
+
+## Activities
+> NodeJS Programmer, Docker, deployment, system management
+
+## Where
+> Proxima\\
+> Krizevniska 10\\
+> 1000 Ljubljana
 
 
 # Education
@@ -86,13 +97,15 @@ Java, C and assembler)
 > OpenVZ, C, C++, FreeBSD, BSD Jails, Delphi, KVM
 
 ## Something in between
-> Java, Django, Pyramid, Nginx, LaTeX
+> Java, Django, Pyramid, Nginx, LaTeX, MongoDB
 
 ## Using all the time
-> Python, NixOS, Nix, Nix expression language, Hydra, Plone, Linux distributions, Git, Bash, JavaScript
+> Python, NixOS, Nix, Nix language, Hydra, Plone,
+Linux distributions, Git, Bash, JavaScript, NodeJS,
+Docker, Docker Compose, Rancher
 
 
 # Personal interests
 - Exploring opensource applications, libraries, modules, ...
 - Programming small useful applications.
-- Administering my own server(s) currently NixOS, previously FreeBSD, Ubuntu Server, Debian.
+- Administering my own server(s), currently NixOS, previously FreeBSD, Ubuntu Server, Debian.

@@ -17,9 +17,10 @@ methods.
 - matejc.myportal my Plone blog.
 - worklogparser parser for custom syntax work log.
 - wnotify for sending notifications from WeeChat IRC client (on server) to desktop machine, both - sever and client side, written in Python
+- push: Push image created by dockerTools (Nix) to Docker registry v2 without docker daemon
 
 ## Bash
-- nixmy written in Bash, tool for NixOS developers.
+- nixmy written in Nix and Bash, tool for Nix/NixOS developers.
 
 ## Nix expression language
 - Hydra: Nix scripts to build any repository - build from source code, run tests, produce docs, produce coverage report and build outputs
@@ -32,4 +33,5 @@ methods.
 - Plone Foundation
 - Searx - meta search engine
 - NixOS - Linux distribution
-- Cyberpipe - Intranet
+- Kiberpipa
+- ...
