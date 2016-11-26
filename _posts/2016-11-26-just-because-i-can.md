@@ -49,16 +49,18 @@ Power cable can be made right at home, I used one [molex(male) to SATA](https://
 (I had that from old motherboard or PSU), and then I made (soldered) a USB(male, A-type) to MOLLEX(female):
 
 MOLLEX has 4 pins:
-- yellow is 15V
-- middle black two are ground
-- red is 5V
+
+    - yellow is 15V
+    - middle black two are ground
+    - red is 5V
 
 I used only the red one and the neighboring black one
 
 USB has also 4 pins:
-- red is 5V
-- white and green data
-- black is ground
+
+    - red is 5V
+    - white and green data
+    - black is ground
 
 I soldered red to red and the selected black to black
 
@@ -80,7 +82,7 @@ Insert microSD made previously and plug in the power cable to start the board bo
 
 Run theese commands on board as root:
 
-With `fdisk` create new DOS partition table and create 3 partitions (boot, swap and root)
+With _fdisk_ create new DOS partition table and create 3 partitions (boot, swap and root)
 
 {% highlight bash %}
 fdisk /dev/sda
@@ -118,9 +120,10 @@ echo '/dev/sda2 none swap defaults 0 0' >> /mnt/sda3/etc/fstab
 
 
 Edit: /mnt/boot/boot.cmd
-- from official image I changed the `root=` for the `bootargs`
-- added `scsi scan` (I found this somewhere on the internet)
-- changed `mmc` occurrences to `scsi`
+
+    - from official image I changed the _root=_ for the _bootargs_
+    - added _scsi scan_ (I found this somewhere on the internet)
+    - changed _mmc_ occurrences to _scsi_
 
 Result:
 
@@ -134,7 +137,7 @@ setenv machid 10bb
 bootm 0x42000000
 ```
 
-Convert the `boot.cmd` to `boot.scr`
+Convert the _boot.cmd_ to _boot.scr_
 
 {% highlight bash %}
 apt-get install u-boot-tools
@@ -151,7 +154,7 @@ run bootcmd_scsi0
 Watch for the errors... or it will boot into the system on /dev/sda3
 (sda - your hard drive; 3 - third, root partition)
 
-If you are happy with it you can copy the `/boot/boot.scr` from the `/dev/sda1` partition to the same place at `/dev/mmcblk0p1` partition, and it will automagicaly boot into the system on hard drive.
+If you are happy with it you can copy the _/boot/boot.scr_ from the _/dev/sda1_ partition to the same place at _/dev/mmcblk0p1_ partition, and it will automagicaly boot into the system on hard drive.
 
 At this point there are few notes: the /dev/sda1 is unused and you do need
 /dev/mmcblk0p1 as boot partition, I have no idea yet how to use the /dev/sda1
@@ -163,4 +166,5 @@ Links
 -----
 
 [Wiki page for A20-OLinuXino-LIME2, which I havent read.. yet](https://www.olimex.com/wiki/A20-OLinuXino-LIME2)
+
 [Official torrent to the Debian Jessie Image for LIME2-eMMC](https://www.olimex.com/wiki/images/2/20/A20-lime2_mainline_uboot_sunxi_kernel_3.4.103_jessie_emmc_rel_9.torrent)
