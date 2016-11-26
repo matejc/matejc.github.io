@@ -6,11 +6,11 @@ tags:
 comments: true
 ---
 
+
+## Intro
+
 Installing Debian _manually_ to external SSD on A20-OLinuXino-LIME2-eMMC board.
 
-
-Intro
------
 
 #### Debian
 
@@ -22,14 +22,14 @@ If you do not know what is this, then stop reading.
 Its an ARM board details on the [Wiki](https://www.olimex.com/wiki/A20-OLinuXino-LIME2)
 
 
-Why?!
------
+## Why?!
+
 
 If you havent read the title of this post... now it's time that you do so.
 
 
-Make bootable microSD card
---------------------------
+## Make bootable microSD card
+
 
 Example:
 
@@ -38,8 +38,8 @@ dd if=a20-lime2_mainline_uboot_sunxi_kernel_3.4.103_jessie_emmc_rel_9.img of=/de
 {% endhighlight %}
 
 
-SATA disk cables
-----------------
+## SATA disk cables
+
 
 For this to work you will need SATA data cable (if you are a real geek, like me,
 than you have that lying around somewhere) and the SATA power cable, you can
@@ -50,17 +50,17 @@ Power cable can be made right at home, I used one [molex(male) to SATA](https://
 
 MOLLEX has 4 pins:
 
-    - yellow is 15V
-    - middle black two are ground
-    - red is 5V
+-   yellow is 15V
+-   middle black two are ground
+-   red is 5V
 
 I used only the red one and the neighboring black one
 
 USB has also 4 pins:
 
-    - red is 5V
-    - white and green data
-    - black is ground
+-   red is 5V
+-   white and green data
+-   black is ground
 
 I soldered red to red and the selected black to black
 
@@ -75,8 +75,8 @@ Now you just need a 5V USB/phone charger to connect to your usb-to-molex cable a
 to the molex-to-sata power cable and then it to the Lime2.
 
 
-Commands
---------
+## Commands
+
 
 Insert microSD made previously and plug in the power cable to start the board booting.
 
@@ -121,9 +121,9 @@ echo '/dev/sda2 none swap defaults 0 0' >> /mnt/sda3/etc/fstab
 
 Edit: /mnt/boot/boot.cmd
 
-    - from official image I changed the _root=_ for the _bootargs_
-    - added _scsi scan_ (I found this somewhere on the internet)
-    - changed _mmc_ occurrences to _scsi_
+-   from official image I changed the _root=_ for the _bootargs_
+-   added _scsi scan_ (I found this somewhere on the internet)
+-   changed _mmc_ occurrences to _scsi_
 
 Result:
 
@@ -162,8 +162,8 @@ as boot or even internal /dev/mmcblk1p1 for the boot partition,
 but for now it does not bother me to have extra mmc card in the slot.
 
 
-Links
------
+## Links
+
 
 [Wiki page for A20-OLinuXino-LIME2, which I havent read.. yet](https://www.olimex.com/wiki/A20-OLinuXino-LIME2)
 
