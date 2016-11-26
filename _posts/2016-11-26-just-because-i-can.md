@@ -7,9 +7,10 @@ comments: true
 ---
 
 
-## Intro
-
 Installing Debian _manually_ to external SSD on A20-OLinuXino-LIME2-eMMC board.
+
+
+## Intro
 
 
 #### Debian
