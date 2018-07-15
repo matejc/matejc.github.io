@@ -9,7 +9,7 @@ pageno: 1
 > Matej Cotman
 
 ## e-mail
-> cotman.matej@gmail.com
+> matej@matejc.com
 
 ## GitHub
 > matejc
@@ -21,7 +21,7 @@ pageno: 1
 # Work Experience
 
 ## Dates
-> June 2011 onwards
+> 1.6.2011 - ...
 
 ## Activities
 > Python Programmer
@@ -37,10 +37,10 @@ pageno: 1
 ## Activities
 > Python and Plone Programmer
 
-## Where
+## At
 > NiteoWeb Ltd.\\
-> Kunaverjeva 9\\
-> 1000 Ljubljana
+> Ljubljana\\
+> Slovenia
 
 ---
 
@@ -61,10 +61,23 @@ pageno: 1
 ## Activities
 > NodeJS Programmer, Docker, deployment, system management
 
-## Where
+## At
 > Proxima\\
-> Krizevniska 10\\
-> 1000 Ljubljana
+> Ljubljana\\
+> Slovenia
+
+---
+
+## Dates
+> 1.1.2018 - ...
+
+## Activities
+> Senior Software Engineer: development, software architecture, deployment
+
+## At
+> GateHub Limited\\
+> London\\
+> United Kingdom
 
 
 # Education
@@ -78,6 +91,9 @@ pageno: 1
 ## Where
 > Vocational College of Telecommunications
 
+## State
+> Two exams left and a diploma
+
 ---
 
 ## Dates
@@ -90,22 +106,25 @@ Java, C and assembler)
 ## Where
 > Faculty of Computer and Information Science
 
+## State
+> Completed first year with 9.3 average
 
 # Computer skills
 
 ## Used quite a few times
-> OpenVZ, C, C++, FreeBSD, BSD Jails, Delphi, KVM
+> C, C++, FreeBSD, BSD Jails, Delphi, KVM, PostgreSQL, Rancher, OpenVZ
 
 ## Something in between
-> Java, Django, Pyramid, Nginx, LaTeX, MongoDB
+> Java, Django, Pyramid, Nginx, LaTeX, MongoDB, Hydra, Plone, MySQL
 
 ## Using all the time
-> Python, NixOS, Nix, Nix language, Hydra, Plone,
-Linux distributions, Git, Bash, JavaScript, NodeJS,
-Docker, Docker Compose, Rancher
+> Python, NixOS, Nix, Nix language,
+Linux distributions, Git, Bash/Zsh, JavaScript, NodeJS,
+Docker, Docker Compose, Kubernetes
 
 
 # Personal interests
-- Exploring opensource applications, libraries, modules, ...
-- Programming small useful applications.
-- Administering my own server(s), currently NixOS, previously FreeBSD, Ubuntu Server, Debian.
+- Exploring open-source applications, libraries, modules, ...
+- Programming small useful applications/scripts for every day use.
+- Administering my own servers, currently NixOS, previously FreeBSD, Ubuntu Server, Debian.
+- Interested in human psychology and how to better myself as a person

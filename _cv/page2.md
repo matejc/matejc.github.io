@@ -8,9 +8,8 @@ pageno: 2
 - Chat server-client and GUI in Java, own implementation of protocol, with encryption, file transfer.
 
 ## Python
-- MPF picture codec written in Python, algorythm very similar to JPEG.
-- HTTP Server is Python application for diagnostic use of any web site by sending HEAD method. It is serving one http file. Uses TCP Server module, supports GET and POST
-methods.
+- MPF picture codec written in Python, algorithm very similar to JPEG.
+- HTTP Server is Python application for diagnostic use of any web site by sending HEAD method. It is serving one http file. Uses TCP Server module, supports GET and POST methods.
 - my first blog, written in Django (web framework for Python).
 - tarman written in Python, curses archive manager.
 - plone.hud ’heads up display’ - CMS information pages, written for Plone.
@@ -32,6 +31,6 @@ methods.
 ## Contributions to OpenSource
 - Plone Foundation
 - Searx - meta search engine
-- NixOS - Linux distribution
+- NixOS Foundation
 - Kiberpipa
-- ...
+- see GitHub ...

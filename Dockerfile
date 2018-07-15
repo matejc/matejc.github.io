@@ -1,10 +1,32 @@
-FROM ruby:2.3-alpine
+FROM alpine:latest
 
-RUN apk add --update build-base
+VOLUME /site
 
-RUN gem install --no-ri --no-rdoc github-pages
+EXPOSE 4000
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /site
 
-CMD bundler exec jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000
+RUN apk update && \
+    apk --update add \
+    gcc \
+    g++ \
+    make \
+    curl \
+    bison \
+    ca-certificates \
+    tzdata \
+    ruby \
+    ruby-rdoc \
+    ruby-irb \
+    ruby-bundler \
+    ruby-dev \
+    glib-dev \
+    libc-dev && \
+    echo 'gem: --no-document' > /etc/gemrc && \
+    gem install --no-ri --no-rdoc github-pages --version 188 && \
+    gem install --no-ri --no-rdoc jekyll-watch && \
+    gem install --no-ri --no-rdoc jekyll-admin && \
+    apk del binutils bison perl nodejs curl && \
+    rm -rf /var/cache/apk/*
+
+CMD sh -c "bundle install && bundle exec jekyll serve -d /_site --watch --force_polling --host 0.0.0.0 -P 4000"

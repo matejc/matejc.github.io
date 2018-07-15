@@ -12,7 +12,7 @@ collections:
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
-exclude:      ["gems", "result", "default.nix"]
+exclude:      ["gems", "result", "default.nix", "vendor", ".idea"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -26,7 +26,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+plugins:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
@@ -85,13 +85,13 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-paginate: 5
+paginate: 8
 
 name: Matej Cotman's Blog
 author: Matej Cotman
 nick: matejc
 description: open-source is liberating
-url: http://blog.matejc.com
+url: https://blog.matejc.com
 email: cotman.matej@gmail.com
 disqus_shortname: matejcsblog
 urls:

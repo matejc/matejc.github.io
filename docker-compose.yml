@@ -1,6 +1,6 @@
 ghpages:
     build: .
     volumes:
-        - .:/usr/src/app
+        - .:/site
     ports:
         - 4000:4000
