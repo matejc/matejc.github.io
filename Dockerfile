@@ -29,4 +29,4 @@ RUN apk update && \
     apk del binutils bison perl nodejs curl && \
     rm -rf /var/cache/apk/*
 
-CMD sh -c "bundle install && bundle exec jekyll serve -d /_site --watch --force_polling --host 0.0.0.0 -P 4000"
+CMD sh -c "bundle install && bundle exec jekyll serve -d /_site --watch --host 0.0.0.0 -P 4000"
