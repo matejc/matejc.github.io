@@ -87,8 +87,11 @@ hr {
     padding: 3px 5px 3px 5px;
     font-size: 90%;
 }
+.post-container {
+    font-size: 120%;
+}
 .post-container > p:first-child {
-    font-size: 110%;
+    font-size: 130%;
     color: #07B;
     margin-bottom: 25px;
 }
