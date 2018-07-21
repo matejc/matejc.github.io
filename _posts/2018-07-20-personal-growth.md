@@ -7,6 +7,7 @@ tags:
 - planning
 - agile
 comments: true
+edited: July 21, 2018
 ---
 
 

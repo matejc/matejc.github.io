@@ -109,6 +109,10 @@ hr {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     max-width: 50%;
 }
+.post-edited {
+    font-size: 80%;
+    color: #BBB;
+}
 h4 {
     margin-top: 30px;
 }

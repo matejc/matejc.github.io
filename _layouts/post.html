@@ -11,6 +11,14 @@ layout: blog
 <div class="col-md-8">
     <div class="post-title">{{ page.title }}</div>
 
+    {% if page.edited %}
+    <div class="post-edited">
+        <p>
+            Last edited at {{ page.edited }}
+        </p>
+    </div>
+    {% endif %}
+
     <div class="post-container">
         {{ content }}
     </div>
