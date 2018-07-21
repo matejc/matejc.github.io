@@ -16,7 +16,7 @@ I am starting a different path in a company that I work at as a software enginee
 
 ## Intro
 
-At first when I was offered a scrum master role I did not even know what is it, let alone wanting to have that role, I wanted to be more a team lead because well we kinda bloody needed that person as developers and I find soft skills of engineering very interesting, after a bit of research I realized that it can not be bad, this can be my ... jumping-off point.
+At first when I was offered a scrum master role, I did not even know what is it, let alone wanting to have that role. Besides I wanted to be more a team lead because well we kinda bloody needed that person as developers and I find soft skills of engineering very interesting. After a bit of research I realized that it can not be bad, this can be my ... jumping-off point.
 
 Since the change from software engineer to scrum master/team lead is that I must communicate and work with people more, there are more things that I can fu*k up - and yea I need to change that way of talking.
 
@@ -29,7 +29,8 @@ Let's go through them:
 
  - Will I be good enough?
 
-I do not want to be less then perfect, so I have much to learn and I think that I have a good opportunity here, its just a matter of being prepared and having a good plan for day-to-day activities to organize my time, that is easier said than done, but I think that I have good coworkers that can help me at the start. Besides my knowledge as software engineer at this company will be very valuable so there is also a logical aspect of me becoming a scrum master.
+I do not want to be less than perfect. Therefore I have much to learn and I think that I have a good opportunity here. It's just a matter of being prepared and having a good plan for day-to-day activities to organize my time, that is easier said than done. I think that I have good coworkers that can help me at the start.
+Along with my wish to learn *soft skills*, my knowledge as software engineer at this company will be very valuable so there is also a logical aspect of me becoming a scrum master.
 
  - Am I capable enough to guide the team?
  
@@ -45,6 +46,8 @@ If I respect everyone in the team, and act appropriately on everything they say,
 All that means that I need to do some changes in my life, because right now I am a nerd with passion for technology and probably very little communication and organization skills, but that does not mean I do not want to learn them, just ... I haven't had a real use to for that.
 
 I have been listening to *Soft Skills Engineering Podcast*, which is very good for discovering the other side of software engineering.
+I like that they are joking about things like "if you do not like your job, change it", as an software engineer that is an easy task, but will you be happier in the next job?
+I think that the trick is to learn how to accept certain things and not to change yourself in a way that you accept bad work ethics.
 
 I am researching topics on how to run meetings and doing work properly, great books on that are *Running Meetings* and *Getting Work Done* from *HBR 20-Minute Manager Series*.
 
@@ -54,6 +57,7 @@ Also reading articles like... *Plans are worthless, but planning is everything* 
 This is not all, I have started to meditate every day to help me think more clearly, I am sure that this can help me in personal life also, not just at work. I am using *Headspace* (link is in links section).
 
 Personal day-to-day plan is also something that I have done, I just need to follow it.
+It look's like when should I wake up, then do warm up, meditate, clean up, eat breakfast, things that are logical to do, but I rarely do all of them every day - remember, its not about the plan, its about planning.
 
 
 ## Conclusion
