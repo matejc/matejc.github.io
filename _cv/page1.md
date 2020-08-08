@@ -69,15 +69,28 @@ pageno: 1
 ---
 
 ## Dates
-> 1.1.2018 - ...
+> 1.1.2018 - 1.9.2019
 
 ## Activities
-> Senior Software Engineer: development, software architecture, deployment
+> Senior Software Engineer: NodeJS development, software architecture, deployment
 
 ## At
 > GateHub Limited\\
 > London\\
 > United Kingdom
+
+---
+
+## Dates
+> 4.10.2019 - ...
+
+## Activities
+> DevOps Consultant
+
+## At
+> Eficode\\
+> Helsinki\\
+> Finland
 
 
 # Education
