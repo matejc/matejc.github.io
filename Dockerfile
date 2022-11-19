@@ -1,32 +1,22 @@
-FROM alpine:latest
+FROM ruby:2.7.3-alpine
 
-VOLUME /site
+RUN apk update && apk add --no-cache \
+  git
 
-EXPOSE 4000
+COPY ./Gemfile /src/gh/pages-gem/
 
-WORKDIR /site
-
-RUN apk update && \
-    apk --update add \
-    gcc \
-    g++ \
+# one step to exclude .build_deps from docker cache
+RUN apk update && apk add --no-cache --virtual .build_deps \
     make \
-    curl \
-    bison \
-    ca-certificates \
-    tzdata \
-    ruby \
-    ruby-rdoc \
-    ruby-irb \
-    ruby-bundler \
-    ruby-dev \
-    glib-dev \
-    libc-dev && \
-    echo 'gem: --no-document' > /etc/gemrc && \
-    gem install --no-ri --no-rdoc github-pages --version 188 && \
-    gem install --no-ri --no-rdoc jekyll-watch && \
-    gem install --no-ri --no-rdoc jekyll-admin && \
-    apk del binutils bison perl nodejs curl && \
-    rm -rf /var/cache/apk/*
+    build-base && \
+  bundle config local.github-pages /src/gh/pages-gem && \
+  bundle install --gemfile=/src/gh/pages-gem/Gemfile && \
+  apk del .build_deps
 
-CMD sh -c "bundle install && bundle exec jekyll serve -d /_site --watch --host 0.0.0.0 -P 4000"
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
+
+WORKDIR /src/site
+
+CMD ["jekyll", "serve", "-H", "0.0.0.0", "-P", "4000"]

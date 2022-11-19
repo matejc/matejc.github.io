@@ -1,6 +1,8 @@
-ghpages:
+version: "3.7"
+services:
+  ghpages:
     build: .
     volumes:
-        - .:/site
+    - .:/src/site
     ports:
-        - 4000:4000
+    - 4000:4000
