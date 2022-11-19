@@ -81,7 +81,7 @@ import /home/matejc/workarea/helper_scripts/nixes/vpn/nsjail.nix rec {
   name = "myvpn";
   user = "matejc";
   homeDir = "/home/${user}";
-  vpnStart = "openvpn --config /etc/openvpn/openvpn.conf --daemon --auth-user-pass /etc/openvpn/pass";
+  vpnStart = "openvpn --config /etc/openvpn/ovpn --daemon --auth-user-pass /etc/openvpn/pass";
   vpnStop = "pkill openvpn";
   openvpnConfig = null;
   cmds = [
