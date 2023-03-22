@@ -14,9 +14,6 @@ pageno: 1
 ## GitHub
 > matejc
 
-## IRC
-> iMatejC @ Freenode
-
 
 # Work Experience
 
@@ -85,7 +82,8 @@ pageno: 1
 > 4.10.2019 - ...
 
 ## Activities
-> DevOps Consultant
+> DevOps Consultant\\
+> Development, testing, building, deployment, architecture
 
 ## At
 > Eficode\\
@@ -113,7 +111,7 @@ pageno: 1
 > 2006 - ...
 
 ## Learned
-> Knowledge of computer science (mainly computer arhitecture and programming in
+> Knowledge of computer science (mainly computer architecture and programming in
 Java, C and assembler)
 
 ## Where
@@ -122,22 +120,16 @@ Java, C and assembler)
 ## State
 > Completed first year with 9.3 average
 
-# Computer skills
+# Computer Skills
 
 ## Used quite a few times
-> C, C++, FreeBSD, BSD Jails, Delphi, KVM, PostgreSQL, Rancher, OpenVZ
+> C, C++, FreeBSD, BSD Jails, Delphi, KVM, PostgreSQL, MySQL, Plone, Rancher, OpenVZ, MongoDB, LaTeX, Pyramid, Django, Java
 
 ## Something in between
-> Java, Django, Pyramid, Nginx, LaTeX, MongoDB, Hydra, Plone, MySQL
+> Nginx, Hydra, Rust, JavaScript, NodeJS, TypeScript
 
 ## Using all the time
 > Python, NixOS, Nix, Nix language,
-Linux distributions, Git, Bash/Zsh, JavaScript, NodeJS,
-Docker, Docker Compose, Kubernetes
+Linux distributions, Git, Bash/Zsh, Docker/Podman, Kubernetes
 
 
-# Personal interests
-- Exploring open-source applications, libraries, modules, ...
-- Programming small useful applications/scripts for every day use.
-- Administering my own servers, currently NixOS, previously FreeBSD, Ubuntu Server, Debian.
-- Interested in human psychology and how to better myself as a person

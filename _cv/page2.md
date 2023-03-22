@@ -1,6 +1,15 @@
 ---
 pageno: 2
 ---
+
+# Personal Interests
+
+- Working along the principles of challenge based learning (CBL)
+- Exploring open-source applications, libraries, modules, ...
+- Programming small useful applications/scripts for everyday use.
+- Administering my own servers, currently NixOS, previously FreeBSD, Ubuntu Server, Debian.
+- Interested in human psychology and how to better myself as a person
+
 # Some personal projects
 
 ## Java
@@ -17,6 +26,10 @@ pageno: 2
 - worklogparser parser for custom syntax work log.
 - wnotify for sending notifications from WeeChat IRC client (on server) to desktop machine, both - sever and client side, written in Python
 - push: Push image created by dockerTools (Nix) to Docker registry v2 without docker daemon
+
+## Rust
+- Sway-workspace: Tool to navigate within Sway workspaces written in Rust.
+- Sway-scratchpad: Tool to turn any app into overlay window on demand, written in Rust.
 
 ## Bash
 - nixmy written in Nix and Bash, tool for Nix/NixOS developers.
