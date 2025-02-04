@@ -34,7 +34,7 @@ pageno: 1
 ## Activities
 > Python and Plone Programmer
 
-## At
+## Where
 > NiteoWeb Ltd.\\
 > Ljubljana\\
 > Slovenia
@@ -58,7 +58,7 @@ pageno: 1
 ## Activities
 > NodeJS Programmer, Docker, deployment, system management
 
-## At
+## Where
 > Proxima\\
 > Ljubljana\\
 > Slovenia
@@ -71,7 +71,7 @@ pageno: 1
 ## Activities
 > Senior Software Engineer: NodeJS development, software architecture, deployment
 
-## At
+## Where
 > GateHub Limited\\
 > London\\
 > United Kingdom
@@ -82,54 +82,45 @@ pageno: 1
 > 4.10.2019 - ...
 
 ## Activities
-> DevOps Consultant\\
-> Development, testing, building, deployment, architecture
+> Senior DevOps Consultant\\
+> Unity,
+> C#,
+> SVN,
+> Git,
+> Nginx,
+> Ansible,
+> Linux,
+> client certificates,
+> Sonatype Nexus,
+> PostgreSQL,
+> Robot Framework,
+> SQLAlchemy,
+> Metabase,
+> Grafana,
+> TeamCity,
+> PowerShell,
+> Python,
+> Nix,
+> C,
+> HashiCorp Packer,
+> GitHub Actions,
+> Jenkins,
+> Pulumi,
+> ArgoCD,
+> JFrog Artifactory,
+> Istio,
+> Kubernetes,
+> Kustomize,
+> AWS EKS,
+> OpenShift,
+> Azure,
+> AKS,
+> Kubernetes,
+> GitHub Action self-hosted container runners (Windows, Linux),
+> LlamaIndex\\
+> Development, testing, building, CI/CD, deployment, architecture, AI, ...
 
-## At
+## Where
 > Eficode\\
 > Helsinki\\
 > Finland
-
-
-# Education
-
-## Dates
-> 2010 - ...
-
-## Learned
-> Basic knowledge of telecommunications
-
-## Where
-> Vocational College of Telecommunications
-
-## State
-> Two exams left and a diploma
-
----
-
-## Dates
-> 2006 - ...
-
-## Learned
-> Knowledge of computer science (mainly computer architecture and programming in
-Java, C and assembler)
-
-## Where
-> Faculty of Computer and Information Science
-
-## State
-> Completed first year with 9.3 average
-
-# Computer Skills
-
-## Used quite a few times
-> C, C++, FreeBSD, BSD Jails, Delphi, KVM, PostgreSQL, MySQL, Plone, Rancher, OpenVZ, MongoDB, LaTeX, Pyramid, Django, Java
-
-## Something in between
-> Nginx, Hydra, Rust, JavaScript, NodeJS, TypeScript
-
-## Using all the time
-> Python, NixOS, Nix, Nix language,
-Linux distributions, Git, Bash/Zsh, Docker/Podman, Kubernetes
-
-

@@ -2,6 +2,19 @@
 pageno: 2
 ---
 
+# Computer Skills
+
+## Used quite a few times
+> C, FreeBSD, BSD Jails, Delphi/Pascal, KVM, PostgreSQL, MySQL, Plone, Rancher, OpenVZ, MongoDB, LaTeX, Pyramid, Django, Java, Go
+
+## Something in between
+> Nginx, Hydra, Rust, JavaScript, NodeJS, TypeScript
+
+## Using all the time
+> Python, NixOS, Nix, Nix language,
+Linux distributions, Git, Docker/Podman, Kubernetes
+
+
 # Personal Interests
 
 - Working along the principles of challenge based learning (CBL)
