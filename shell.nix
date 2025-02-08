@@ -4,6 +4,6 @@ mkShell {
   name = "jekyll-gh-pages";
   nativeBuildInputs = [ rubyPackages.github-pages ];
   shellHook = ''
-    jekyll serve
+    jekyll serve --livereload --incremental
   '';
 }
