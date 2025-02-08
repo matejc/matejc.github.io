@@ -4,7 +4,7 @@ title: Split your YouTube playlists
 tags:
 - Python
 - YouTube
-comments: false  ## enable later
+comments: true
 ---
 
 Split your YouTube playlist into many, using your predefined rules
@@ -158,7 +158,7 @@ Note: since the daily quota of requests that you can make is limited, you can re
 
 To import one of your new playlists:
 
-```json
+```shell
 ./venv/bin/pl-insert -p "music_metal" -i ./data
 ```
 
